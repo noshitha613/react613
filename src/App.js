@@ -11,11 +11,11 @@
 
 // export default App
 import React from 'react'
-import CBCstateEx from './stateexample/CBCstateEx'
+import CBCAssignment from './stateexample/CBCAssignment'
 const App = () => {
   return (
     <div>
-      {/* <CBCstateEx/> */}
+      {/* <CBCAssignment/> */}
     </div>
   )
 }
