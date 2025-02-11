@@ -21,16 +21,33 @@
 // }
 
 // export default App
-import React from 'react';
-import UseEffectEx from './hookexample/UseEffectEx';
+// import React from 'react';
+// import UseEffectEx from './hookexample/UseEffectEx';
 
-function App() {
+// function App() {
+//   return (
+//     // <div className="App">
+//     //   <h1>React UseEffect Example</h1>
+//     //   <UseEffectEx />
+//     // </div>
+//     <div className="App">
+//       <h1>React RefExample</h1>
+//       <RefExample></RefExample>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// hook !!
+
+import React from 'react'
+import RefExamples from './hookexample/RefExamples';
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>React UseEffect Example</h1>
-      <UseEffectEx />
+    <div>
+      <RefExamples/>
     </div>
-  );
+  )
 }
-
-export default App;
